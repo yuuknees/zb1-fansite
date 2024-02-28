@@ -1,0 +1,130 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.modual_box {
+    padding: 2%;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Menlo';
+}
+
+h3 {
+    text-align: center;
+}
+
+#cancel {
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+    color: #000000;
+}
+
+#quickStats {
+    border-radius: 20px;
+    background: black;
+    padding: 6px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border-color: black;
+}
+
+#nav1_gw,
+#gunwook_tags1 {
+    border-radius: 25px;
+    background: black;
+    padding: 10px;
+    width: 100%;
+
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav1_gw:hover,
+#gunwook_tags1:hover, #quickStats:hover {
+    background-color: #A9AFDF;
+}
+
+.sidebar_gunwook {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 606px;
+    height: 100%;
+    background: #D26EB7;
+    display: flex;
+}
+
+.member_navbar {
+    width: 100px;
+    position: fixed;
+    font-size: 17px;
+    top: 5%;
+    left: 86%;
+    line-height: 40px;
+}
+
+
+
+.member_info {
+    font-size: 15px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 20%;
+    overflow: scroll;
+    padding-bottom: 30%;
+}
+
+.memberFullbody {
+    position: fixed;
+    left: 85%;
+    bottom: 10px;
+}
+
+.memberGIF {
+    z-index: 1;
+    position: fixed;
+    left: 35%;
+    bottom: 10px;
+    border-radius: 50%;
+}
+
+.imagepng {
+    z-index: 1;
+    position: fixed;
+    overflow: hidden;
+    left: 500px;
+    top: 10px;
+}
+
+.sanrio_character {
+    z-index: 1;
+    position: fixed;
+    bottom: 0%;
+    left: 30px;
+}
+
+.scrollbox {
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.scroll_images {
+    z-index: 1;
+    position: absolute;
+    width: 450px;
+    top: 15%;
+    left: 52%;
+}
