@@ -41,7 +41,7 @@ position: fixed;
 
 /* gunwook stuff */
 
-#nav1_gw, #gunwook_tags1 {
+.nav1_gw, .gunwook_tags1 {
     border-radius: 25px;
     background: black;
     padding: 10px;
@@ -52,8 +52,9 @@ position: fixed;
     text-decoration: none;
 }
 
-#nav1_gw:hover, #gunwook_tags1:hover{
+.nav1_gw:hover, .gunwook_tags1:hover{
     background-color: #A9AFDF;
+    color: white;
 }
 
 .sidebar_gunwook {
@@ -69,10 +70,7 @@ position: fixed;
 
 
 
-
-
-
-/* taerae stuff */
+/* -------- taerae stuff */
 #nav1_tr, #taerae_tags1 {
     border-radius: 25px;
     background: #8AB797;

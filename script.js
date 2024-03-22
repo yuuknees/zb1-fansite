@@ -26,7 +26,7 @@
 //     });
 // });
 
-    const updateButton = document.getElementById("quickStats");
+const updateButton = document.getElementById("quickStats");
 const cancelButton = document.getElementById("cancel");
 const dialog = document.getElementById("favDialog");
 
@@ -49,4 +49,3 @@ cancelButton.addEventListener("click", () => {
     dialog.close("animalNotChosen");
     openCheck(dialog);
 });
-
