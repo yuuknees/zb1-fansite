@@ -85,14 +85,6 @@ position: fixed;
 }
 
 
-#favDialog {
-    font-size: small;
-    padding: 1%;
-    font-style: oblique;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
 
 
 
@@ -399,4 +391,9 @@ position: fixed;
 
 
 /* ---- quick stats stuff ---- */
-
+#favDialog {
+    font-size: small;
+    padding: 1%;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

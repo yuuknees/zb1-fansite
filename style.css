@@ -2,13 +2,13 @@
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
 }
-
+/* 
 .navbar {
-    background-color: #0100FC;
+    background-color: #325570;
     overflow: hidden;
-    padding: 12px;
+    padding: 20px;
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
     
 }
 
@@ -20,8 +20,9 @@
 }
 
 
-.navbar a:hover {
-    background-color: #03FD07;
+.navbar a:hover, .navbar p:hover {
+    background-color: #81c2e0;
+    color: white;
 }
 
 @media screen and (max-width: 500px) {
@@ -30,10 +31,60 @@
         display: block;
         width: 100%;
         text-align: left;
-        /* If you want the text to be left-aligned on small screens */
     }
+} */
+
+/* CSS */
+.navbar {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    overflow: hidden;
 }
 
+.navbar a {
+    padding: 10px 20px;
+    color: black;
+    width: 20%;
+    position: relative;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a::before{
+    content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: 2px solid #325570;
+        /* Stroke color */
+        border-radius: 20px;
+        /* Border radius */
+        z-index: -1;
+        /* Move behind the text */
+        transition: transform 0.3s ease;
+        /* Smooth transition for hover effect */
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+        /* Stack items vertically on small screens */
+    }
+
+    .navbar a {
+        width: 100%;
+        margin-bottom: 10px;
+        /* Add some space between links */
+    }
+}
 
 
 /* abouts page */
