@@ -149,19 +149,11 @@ a:active {
 
 
 /* ------- socials page ------- */
-.grid-container-socials{
-  /* display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  gap: 2px;
-  background-color: #9ADDFE;
-  padding: 2px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px; */
 
+.grid-container-socials {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    background-color: #ffffff;
     margin-top: 2%;
     padding: 2%;
     gap: 1rem;
@@ -169,12 +161,20 @@ a:active {
     text-align: center;
 }
 
-.grid-container-socials > div {
-  background-color: white;
-  padding: 10px;
+.grid-container-socials>div {
+    padding: 5px;
+    border-radius: 10px;
 }
 
-#heading1, #p1 {
+.grid-container-socials>div>h2 {
+    margin-top: 0;
+}
+
+#heading1 {
     text-align: center;
     padding-top: 50px;
+}
+
+#p1 {
+    text-align: center;
 }

@@ -162,7 +162,7 @@ position: fixed;
 
 
 
-/* ------ matt hao */
+/* ------ matt */
 #nav_matt, #matt_tags {
     border-radius: 25px;
     background: #809BCE;
@@ -214,7 +214,6 @@ position: fixed;
 
 #nav_gyuvin:hover, #gyuvin_tags:hover {
     background-color: #05a8aa;
-
 }
 
 
