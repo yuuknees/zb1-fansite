@@ -1,5 +1,5 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Cutive Mono", monospace;
     text-decoration: none;
 }
 
@@ -10,30 +10,23 @@ img {
     height: auto;
 }
 
-#background-image {
-    background-image: url("pics/group/blueAura.jpg");
-    background-size: cover;
-    /* Ensure the background image covers the entire container */
-    background-position: center;
-    /* Center the background image */
-    background-repeat: no-repeat;
-    /* Prevent the background image from repeating */
-    height: 100vh;
-    /* Set the height of the background image container to the viewport height */
-}
-
 .yuu {
     z-index: 1;
-    position: fixed;
-    top: 40%;
+    position: absolute;
+    margin-top: 25%;
+    padding-right: 50%;
     padding-left: 5%;
     height: auto;
-    font-size: 20px;
+    font-size: 100px;
+    display: block;
     color: aliceblue;
 }
 
-.yuu p {
-    margin-bottom: 1px;
+
+.zb1_gif {
+    position: absolute;
+    padding-top: 10%;
+    margin-left: 60%;
 }
 
 /* ------- members directory -------- */
@@ -126,10 +119,9 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     z-index: 1;
-    /* Ensure the image is behind the navbar */
     overflow: hidden;
 }
 
@@ -195,39 +187,40 @@ img {
 .about_images img {
     max-width: 100%;
     height: relative;
-
-
-
-
-
+}
 
 /* ------- socials page ------- */
-
-.grid-container-socials {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    margin-top: 2%;
-    padding: 2%;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    text-align: center;
+.container {
+    text-align: left;
+    height: auto;
 }
 
-.grid-container-socials>div {
-    padding: 5px;
-    border-radius: 10px;
+.container-content a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    flex: content;
 }
 
-.grid-container-socials>div>h2 {
-    margin-top: 0;
+.container-content{
+    margin-left: 60%;
 }
 
-#heading1 {
-    text-align: center;
-    padding-top: 50px;
+.container-content a:hover {
+    color: rgb(94, 129, 212);
 }
 
-#p1 {
-    text-align: center;
+.socials_heading {
+    padding: 20px 15px;
+    text-align: left;
+}
+
+.personal_socials {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align:center;
+        color: white;
+        background-color: black;
 }

@@ -248,7 +248,7 @@ position: fixed;
      height: 100%;
      color: #ffffff;
      /* background: #5F70C1; */
-     background: rgb(251, 193, 143);
+     background: #f4966d;
      display: flex;
  }
 
@@ -256,7 +256,7 @@ position: fixed;
  #yujin_tags {
      border-radius: 25px;
      /* background: #B3B7F7; */
-     background: #90b494;
+     background: #8e583b;
      padding: 10px;
      width: 100%;
      height: 150px;
@@ -267,7 +267,7 @@ position: fixed;
 
  #nav_yujin:hover, #yujin_tags:hover {
      /* background-color: #64C1ED; */
-     background-color: #678a6b;
+     background-color: #c0775a;
 
  }
 
