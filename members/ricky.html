@@ -14,7 +14,7 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="shen-ricky-page">
         <header>
             <div class="member_navbar">
                 <a id="nav1_rk" href="/index.html">home_base</a>
@@ -35,7 +35,8 @@
                         href="https://youtu.be/a9fMfGigkPE">SELF_INTRO</a>
                     <a id="ricky_tags"
                         href="https://www.youtube.com/watch?v=a9fMfGigkPE&list=PLmpunnoaOKBrdASG_Jo2J_4YprHMDKXec">COMPILATION</a>
-                </div>
+                    <button type="button" id="quickStats">QUICK_STATS</button>
+                    </div>
                 <br>
                 <p>
                     Ricky (리키) is a Chinese trainee under Yue Hua Entertainment. He is a member of the boy group ZEROBASEONE.
@@ -46,17 +47,15 @@
                     Known for his iconic self-intro video tagline 'Young and Rich; Tall and Handsome; I'm charisma boss baby Ricky.' With his video alone, he singlehandedly
                     made people watch Boys Planet. Legendary Behaviour.
                 </p>
-
                 <p>
-                    That aside, Ricky is an talented idol for his unique vocal tone, great charisma on stage, striking features and lovely personality (but make no mistake, he definitely has a cheeky side to him).
-                    In fact, his nickname with Ze_Roses is Lovelicky (lovely x Ricky) because he loves strawberries, decorating his diary and pizza!
+                    That aside, Ricky is an talented idol for his unique vocal tone, great charisma on stage, striking visuals and lovely personality (but make no mistake, he definitely has a cheeky side to him).
+                    In fact, his nickname with Ze_Roses (and staff) is Lovelicky (lovely x Ricky). He also has phenomenal music taste.
+                </p>
+                <p>
+                    It has been an ongoing mystery what Ricky's MBTI was that it was joked it was R.I.C.H. However, we now know he is a INTP.
                 </p>
 
-                <p>
-                    It's an ongoing joke with Ze_Roses that Ricky's MBTI is R.I.C.H because we don't actually know his MBTI (and probably never will!).
-                </p>
-
-                <sub>A/N: *in Gyuvin's voice* Ahhh Ricky!
+                <sub>A/N: talking about INTPs, so am I so Ricky and I are basically twinsss
                 </sub>
             </div>
         </div>
@@ -94,6 +93,28 @@
         <div class="sanrio_character">
             <img src="https://64.media.tumblr.com/87371181c323b17c90fa4694f590cae1/7cb146b37335bfa7-a4/s500x750/d8133d9197ddc4a658613cd05a4f3a929546d47c.gif" width="150" srcset="">
         </div>
+
+        <!-- pop-up dialog box, containing a form -->
+        <dialog id="favDialog">
+            <form method="dialog">
+                <div class="modual_box">
+                    <h3>Quick_Stats</h3>
+                    <br>
+                    <p><strong>Birth name:</strong></p>
+                    <p><strong>Entertainment Company:</strong></p>
+                    <p><strong>Birthday: </strong></p>
+                    <p><strong>Position: </strong></p>
+                    <p><strong>MBTI: </strong></p>
+                    <p><strong>Nationality: </strong> Chinese</p>
+                    <p><strong>Height: </strong></p>
+                    <div>
+                        <button id="cancel" type="reset">Exit</button>
+                    </div>
+                </div>
+            </form>
+        </dialog>
+        <script src="/script.js"></script>
+
 </body>
 
 </html>

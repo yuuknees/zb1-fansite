@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body class="han-yujin-page">
     <header>
         <div class="member_navbar">
             <a id="nav_yujin" href="/index.html">home_base</a>
@@ -32,6 +32,8 @@
                 <a id="yujin_tags" href="https://www.youtube.com/watch?v=ydGl_IFi3FU&list=PLAXEgbMnzmZ0fkjgLWIoUr6WZWm9wMXUt">FANCAMS</a>
                 <a id="yujin_tags" href="https://youtu.be/yD-1-04n5yE">SELF_INTRO</a>
                 <a id="yujin_tags" href="https://www.youtube.com/watch?v=ydGl_IFi3FU&list=PLbFc2MXrAG0PYiwdOW4oMgz6GGhC-6WH_">COMPILATION</a>
+                <button type="button" id="quickStats">QUICK_STATS</button>
+
             </div>
 
             <br>
@@ -91,12 +93,34 @@
     </div>
 
     <div class="imagepng">
-        <img src="/pics/yujin/peach.png" alt="" width="250">
+        <img src="/pics/yujin/sonny-bunny.png" alt="" width="200">
     </div>
 
     <div class="sanrio_character">
         <img src="/pics/yujin/tuxedo-sam-sanrio.gif" width="200" alt="">
     </div>
+
+    <!-- pop-up dialog box, containing a form -->
+    <dialog id="favDialog">
+        <form method="dialog">
+            <div class="modual_box">
+                <h3>Quick_Stats</h3>
+                <br>
+                <p><strong>Birth name:</strong>Han Yujin</p>
+                <p><strong>Entertainment Company:</strong>Yuehua Entertainment</p>
+                <p><strong>Birthday: </strong>20 March, 2007</p>
+                <p><strong>Position: </strong>maknae, main dancer, lead vocalist</p>
+                <p><strong>MBTI: </strong>INTJ</p>
+                <p><strong>Nationality: </strong> South Korean</p>
+                <p><strong>Height: </strong>177cm</p>
+                <div>
+                    <button id="cancel" type="reset">Exit</button>
+                </div>
+            </div>
+        </form>
+    </dialog>
+
+    <script src="/script.js"></script>
 </body>
 
 </html>

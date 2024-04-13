@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body class="kim-jiwoong-page">
     <header>
         <div class="member_navbar">
             <a id="nav_jiwoong" href="/index.html">home_base</a>
@@ -35,7 +35,8 @@
                     href="https://youtu.be/pOP5k5JTD1c">SELF_INTRO</a>
                 <a id="jiwoong_tags"
                     href="https://youtu.be/qgXBOLK6Eq4">COMPILATION</a>
-            </div>
+            <button type="button" id="quickStats">QUICK_STATS</button>
+                </div>
 
             <br>
             <p>
@@ -99,6 +100,28 @@
     <div class="sanrio_character">
         <img src="/pics/jiwoong/batzz.gif" width="200" alt="">
     </div>
+
+    <!-- pop-up dialog box, containing a form -->
+    <dialog id="favDialog">
+        <form method="dialog">
+            <div class="modual_box">
+                <h3>Quick_Stats</h3>
+                <br>
+                <p><strong>Birth name: </strong>Kim Jiwoong</p>
+                <p><strong>Entertainment Company: </strong>Nest Management</p>
+                <p><strong>Birthday: </strong>December 14, 1998 (sagittarius baby let goooo)</p>
+                <p><strong>Position: </strong>lead vocalist, lead rapper</p>
+                <p><strong>MBTI: </strong>ENFJ</p>
+                <p><strong>Nationality: </strong> South Korean</p>
+                <p><strong>Height: </strong>181</p>
+                <div>
+                    <button id="cancel" type="reset">Exit</button>
+                </div>
+            </div>
+        </form>
+    </dialog>
+    <script src="/script.js"></script>
+
 </body>
 
 </html>

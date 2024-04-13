@@ -32,8 +32,8 @@ body {
 /* hanbin stuff */
 .sidebar_sungbin {
 position: fixed;
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     width: 43%;
     height: 100%;
     background: #E4E8C6;
@@ -79,7 +79,7 @@ position: fixed;
     position: fixed;
     top: 0;
     left: 0;
-    width: 604px;
+    width: 43%;
     height: 100%;
     background: #D26EB7;
     display: flex;
@@ -106,7 +106,7 @@ position: fixed;
     position: fixed;
     top: 0;
     left: 0;
-    width: 600px;
+    width: 43%;
     height: 100%;
     /* background: #ECE5DB; */
     background: #ECE5DB;
@@ -136,7 +136,7 @@ position: fixed;
     position: fixed;
     top: 0;
     left: 0;
-    width: 600px;
+    width: 43%;
     height: 100%;
     color: white;
     /* background: #2E2623; */
@@ -167,7 +167,7 @@ position: fixed;
     position: fixed;
     top: 0;
     left: 0;
-    width: 600px;
+    width: 43%;
     height: 100%;
     color: white;
     /* background: #2E2623; */
@@ -197,7 +197,7 @@ position: fixed;
     position: fixed;
     top: 0;
     left: 0;
-    width: 600px;
+    width: 43%;
     height: 100%;
     color: #3864bb;
     background: #e3ce7c;
@@ -208,7 +208,7 @@ position: fixed;
 /* ---- gyuvin stuff reposonive trial ---- */
  .sidebar_gyuvin {
     position: fixed;
-    width: 600px;
+    width: 43%;
     height: 100%;
     color: #ffffff;
     /* background: #ffb246; */
@@ -238,19 +238,19 @@ position: fixed;
 
  .sidebar_yujin {
      position: fixed;
-     width: 600px;
+     width: 43%;
      height: 100%;
      color: #ffffff;
-     /* background: #5F70C1; */
-     background: #f4966d;
+     background: #5F70C1;
+     /* background: #f4966d; */
      display: flex;
  }
 
  #nav_yujin,
  #yujin_tags {
      border-radius: 25px;
-     /* background: #B3B7F7; */
-     background: #8e583b;
+     background: #B3B7F7;
+     /* background: #8e583b; */
      padding: 10px;
      width: 100%;
      height: 150px;
@@ -260,19 +260,15 @@ position: fixed;
  }
 
  #nav_yujin:hover, #yujin_tags:hover {
-     /* background-color: #64C1ED; */
-     background-color: #c0775a;
-
+     background-color: #64C1ED;
+     /* background-color: #c0775a; */
  }
-
-
-
 
  /* --- jiwoong stuff --- */
 
  .sidebar_jiwoong {
      position: fixed;
-     width: 600px;
+    width: 43%;
      height: 100%;
      color: #ffffff;
      background: #748cab;
@@ -352,7 +348,8 @@ position: fixed;
     z-index: 1;
     position: fixed;
     /* overflow: hidden; */
-    left: 500px;
+    /* left: 500px; */
+    margin-left: 35%;
     top: 10px;
 }
 
@@ -425,7 +422,6 @@ position: fixed;
     /* Blue text color on hover */
 }
 
-
 /* sung hanbin dialog ---------------------------- */
 .sung-hanbin-page #quickStats {
     background-color: #C1AD6E;
@@ -436,6 +432,29 @@ position: fixed;
     background-color: #DFD0CF;
 }
 
+/* han yujin dialog ----------------------------- */
+.han-yujin-page #quickStats {
+    background-color: #B3B7F7;
+}
 
+.han-yujin-page #quickStats:hover {
+    background-color: #64C1ED;
+}
 
+.kim-gyuvin-page #quickStats {
+    background-color: #81BFC9;
+}
+
+.kim-gyuvin-page #quickStats:hover, #cancel:hover {
+    background-color: #05a8aa;
+}
+
+.kim-jiwoong-page #quickStats {
+    background-color: #3e5c76;
+}
+
+.kim-jiwoong-page #quickStats:hover, #cancel:hover {
+     background-color:#1d2d44;
+     color: white;
+}
 

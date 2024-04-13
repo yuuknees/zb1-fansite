@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body class="seok-matthew-page">
     <header>
         <div class="member_navbar">
             <a id="nav_matt" href="/index.html">home_base</a>
@@ -35,6 +35,7 @@
                     href="https://youtu.be/kF1NKaN3Z4s">SELF_INTRO</a>
                 <a id="matt_tags" 
                     href="https://www.youtube.com/watch?v=aMeVqhEhJes&list=PLbFc2MXrAG0NmLjVh3uwf8c0AgNMfe-6W">COMPILATION</a>
+                <button type="button" id="quickStats">QUICK_STATS</button>
                 </div>
             <br>
             <p>
@@ -97,5 +98,27 @@
     <div class="sanrio_character">
         <img src="/pics/matthew/Pak.gif" width="150" alt="">
     </div>
+
+    <!-- pop-up dialog box, containing a form -->
+    <dialog id="favDialog">
+        <form method="dialog">
+            <div class="modual_box">
+                <h3>Quick_Stats</h3>
+                <br>
+                <p><strong>Birth name:</strong></p>
+                <p><strong>Entertainment Company:</strong></p>
+                <p><strong>Birthday: </strong></p>
+                <p><strong>Position: </strong></p>
+                <p><strong>MBTI: </strong></p>
+                <p><strong>Nationality: </strong> South Korean</p>
+                <p><strong>Height: </strong></p>
+                <div>
+                    <button id="cancel" type="reset">Exit</button>
+                </div>
+            </div>
+        </form>
+    </dialog>
+    <script src="/script.js"></script>
+
 </body>
 </html>

@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body class="kim-taerae-page">
     <header>
         <div class="member_navbar">
             <a id="nav1_tr" href="/index.html">home_base</a>
@@ -36,7 +36,8 @@
                     href="https://youtu.be/D2sTOzPZ7gk">SELF_INTRO</a>
                 <a id="taerae_tags1"
                     href="https://www.youtube.com/watch?v=1q-2df37Gco&list=PLKuhxdM9Qei-myQ7tYnja-aMgiq5OXu-6">COMPILATION</a>
-            </div>
+            <button type="button" id="quickStats">QUICK_STATS</button>
+                </div>
 
             <br>
             <p>
@@ -70,7 +71,6 @@
             <img src="/pics/taerae/image 42.jpg" width="450" alt="">
             <img src="/pics/taerae/image 60.jpg" width="450" alt="">
             <img src="/pics/taerae/image 57.jpg" width="450" alt="">
-            
         </div>
     </div>
 
@@ -94,6 +94,28 @@
         <img src="/pics/taerae/sanrio-pekkle-animated-custom-cursor.gif"
             width="150" alt="">
     </div>
+
+        <!-- pop-up dialog box, containing a form -->
+        <dialog id="favDialog">
+            <form method="dialog">
+                <div class="modual_box">
+                    <h3>Quick_Stats</h3>
+                    <br>
+                    <p><strong>Birth name:</strong></p>
+                    <p><strong>Entertainment Company:</strong></p>
+                    <p><strong>Birthday: </strong></p>
+                    <p><strong>Position: </strong></p>
+                    <p><strong>MBTI: </strong></p>
+                    <p><strong>Nationality: </strong> South Korean</p>
+                    <p><strong>Height: </strong></p>
+                    <div>
+                        <button id="cancel" type="reset">Exit</button>
+                    </div>
+                </div>
+            </form>
+        </dialog>
+        <script src="/script.js"></script>
+
 </body>
 
 </html>
