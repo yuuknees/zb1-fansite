@@ -15,22 +15,18 @@ h3 {
     text-align: center;
 }
 
+#quickStats,
 #cancel {
-    border-radius: 10px;
-    background: #ffffff;
-    padding: 10px;
-    font-size: 15px;
-    color: #000000;
-}
-
-#quickStats {
-    border-radius: 20px;
+    border-radius: 25px;
     background: black;
-    padding: 6px;
+    padding: 0.5em;
+    width: 120px;
+    height: 100%;
     font-size: 15px;
     color: white;
     text-decoration: none;
-    border-color: black;
+    cursor: pointer;
+    border: none;
 }
 
 

@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <title>Sung Hanbin </title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="/members.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -14,29 +13,25 @@
 </head>
 
 <body>
-
-    <div id="body">
-        <header>
-            <div class="member_navbar">
-                <a id="nav1_sh" href="/index.html">home_base</a>
-                <a id="nav1_sh" href="/about.html">about</a>
-                <a id="nav1_sh" href="/members.html">members_directory</a>
-                <a id="nav1_sh" href="/socials.html">socials</a>
-            </div>
-        </header>
-
+    <header>
+        <div class="member_navbar">
+            <a id="nav1_sh" href="/index.html">home_base</a>
+            <a id="nav1_sh" href="/about.html">about</a>
+            <a id="nav1_sh" href="/members.html">members_directory</a>
+            <a id="nav1_sh" href="/socials.html">socials</a>
+        </div>
+    </header>
         <div class="sidebar_sungbin">
             <div class="member_info">
                 <h1>Sung Hanbin</h1>
-
                 <div class="membersTags">
                     <a id="shanbin_tags"
                         href="https://www.youtube.com/watch?v=rIAwzth9iuM&list=PL0SRetsiUxNSQDmJnDIG3Hrpd4Ls7NxZ4">FANCAMS</a>
                     <a id="shanbin_tags" href="https://youtu.be/suD2NfKRq3U">SELF_INTRO</a>
                     <a id="shanbin_tags"
                         href="https://www.youtube.com/watch?v=W-vgZyRG630&list=PLkl9WCmwatsb9DK7ejNZjSjvMOX7vMjQ3">COMPILATION</a>
-                </div>
-
+                    <button type="button" id="quickStats">QUICK_STATS</button>
+                    </div>
                 <br>
                 <p>
                     Sung Han Bin (성한빈) is a South Korean trainee under Studio GL1DE and THE L1VE. He is the leader of
@@ -91,14 +86,33 @@
 
     <div class=" imagepng">
             <img src="/pics/hanbin/toast.png" alt="" width="200">
-        </div>
-
-        <div class="sanrio_character">
-            <iframe src="https://giphy.com/embed/Svco4ZmlA89QeFJrEe" width="150" frameBorder="0"
-                allowFullScreen></iframe>
-        </div>
-
     </div>
-</body>
 
+    <div class="sanrio_character">
+        <iframe src="https://giphy.com/embed/Svco4ZmlA89QeFJrEe" width="150" frameBorder="0"
+            allowFullScreen></iframe>
+    </div>
+
+        <!-- pop-up dialog box, containing a form -->
+        <dialog id="favDialog">
+            <form method="dialog">
+                <div class="modual_box">
+                    <h3>Quick_Stats</h3>
+                    <br>
+                    <p><strong>Birth name:</strong>Sung Hanbin</p>
+                    <p><strong>Entertainment Company:</strong> </p>
+                    <p><strong>Birthday:</strong> 5/1/2005</p>
+                    <p><strong>Position:</strong> Lead vocalist, main rapper, lead dancer</p>
+                    <p><strong>MBTI:</strong> ENFP</p>
+                    <p><strong>Nationality:</strong> South Korean</p>
+                    <p><strong>Height:</strong> 184cm</p>
+                    <div>
+                        <button id="cancel" type="reset">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        </dialog>
+
+        <script src="/script.js"></script>
+</body>
 </html>

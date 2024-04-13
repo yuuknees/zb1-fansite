@@ -9,33 +9,51 @@ body {
     background-color: white;
 }
 
+.modual_box {
+    padding: 2%;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Menlo';
+}
+
+#cancel {
+    border-radius: 25px;
+    background: black;
+    padding: 0.5em;
+    width: 120px;
+    height: 100%;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
 
 /* hanbin stuff */
 .sidebar_sungbin {
 position: fixed;
     top: 0;
     left: 0;
-    width: 600px;
+    width: 43%;
     height: 100%;
     background: #E4E8C6;
     display: flex;
 }
 
-#nav1_sh, #shanbin_tags {
+#nav1_sh, #shanbin_tags, #quickStats_hanbin{
     border-radius: 25px;
     background: #C1AD6E;
     padding: 10px;
-    width: 100%;
-    height: 150px;
+    width: auto;
+    height: auto;
     font-size: 15px;
     color: white;
     text-decoration: none;
 }
 
-#nav1_sh:hover, #shanbin_tags:hover {
+#nav1_sh:hover, #shanbin_tags:hover, #quickStats_hanbin:hover{
     background-color: #DFD0CF;
 }
-
 
 
 
@@ -83,13 +101,6 @@ position: fixed;
     background: #D26EB7;
     display: flex;
 }
-
-
-
-
-
-
-
 
 /* -------- taerae stuff */
 #nav1_tr, #taerae_tags1 {
@@ -395,8 +406,10 @@ position: fixed;
 
 /* ---- quick stats stuff ---- */
 #favDialog {
-    font-size: small;
+    font-size: 15px;
     padding: 1%;
-    font-style: oblique;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: fit-content;
+    font-style:normal;
+    border-radius: 10%;
 }
+
