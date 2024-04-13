@@ -40,7 +40,7 @@ position: fixed;
     display: flex;
 }
 
-#nav1_sh, #shanbin_tags, #quickStats_hanbin{
+#nav1_sh, #shanbin_tags{
     border-radius: 25px;
     background: #C1AD6E;
     padding: 10px;
@@ -51,12 +51,9 @@ position: fixed;
     text-decoration: none;
 }
 
-#nav1_sh:hover, #shanbin_tags:hover, #quickStats_hanbin:hover{
+#nav1_sh:hover, #shanbin_tags:hover{
     background-color: #DFD0CF;
 }
-
-
-
 
 /* gunwook stuff */
 
@@ -73,23 +70,9 @@ position: fixed;
     border: none;
 }
 
-.nav1_gw:hover, .gunwook_tags1:hover, #quickStats:hover,
-#cancel:hover {
+.nav1_gw:hover, .gunwook_tags1:hover {
     background-color: #A9AFDF;
     color: white;
-}
-
-#quickStats, #cancel {
-    border-radius: 25px;
-    background: black;
-    padding: 0.5em;
-    width: 120px;
-    height: 100%;
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
 }
 
 .sidebar_gunwook {
@@ -408,8 +391,51 @@ position: fixed;
 #favDialog {
     font-size: 15px;
     padding: 1%;
-    width: fit-content;
+    width: 500px;
     font-style:normal;
     border-radius: 10%;
 }
+
+#quickStats,
+#cancel {
+    border-radius: 25px;
+    background: black;
+    padding: 0.5em;
+    width: 120px;
+    height: 100%;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+/* park gunwook dialog --------------------------- */
+.park-gunwook-page #quickStats {
+    background-color: #000000;
+    /* Blue background color */
+    color: #ffffff;
+    /* White text color */
+}
+
+.park-gunwook-page #quickStats:hover, #cancel:hover {
+    background-color: #A9AFDF;
+    /* White background color on hover */
+    color: #000000;
+    /* Blue text color on hover */
+}
+
+
+/* sung hanbin dialog ---------------------------- */
+.sung-hanbin-page #quickStats {
+    background-color: #C1AD6E;
+    color: #ffffff;
+}
+
+.sung-hanbin-page #quickStats:hover {
+    background-color: #DFD0CF;
+}
+
+
+
 
