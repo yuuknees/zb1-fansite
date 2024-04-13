@@ -458,3 +458,34 @@ position: fixed;
      color: white;
 }
 
+.zhang-hao-page #quickStats, #cancel {
+    background-color: #011936;
+}
+
+.zhang-hao-page #quickStats:hover, #cancels:hover {
+    background-color: #ebbc4d;
+}
+
+.seok-matthew-page #quickStats, #cancel {
+    background-color: #809BCE;
+}
+
+.seok-matthew-page #quickStats:hover, #cancels:hover {
+    background-color: #95B8D1;
+}
+
+.shen-ricky-page #quickStats, #cancel {
+    background-color: #db93b0;
+}
+
+.shen-ricky-page #quickStats:hover, #cancels:hover {
+    background-color: #9b2151;
+}
+
+.kim-taerae-page #quickStats, #cancel {
+    background-color: #8AB797;
+}
+
+.kim-taerae-page #quickStats:hover, #cancels:hover {
+    background-color: #D3C8A6;
+}
