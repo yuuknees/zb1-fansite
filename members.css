@@ -1,7 +1,7 @@
 * {
     padding: 0;
-        font-family: 'Courier New', Courier, monospace;
-    
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 
 /* hanbin stuff */
 .sidebar_sungbin {
-position: fixed;
+    position: fixed;
     /* top: 0;
     left: 0; */
     width: 43%;
@@ -40,7 +40,8 @@ position: fixed;
     display: flex;
 }
 
-#nav1_sh, #shanbin_tags{
+#nav1_sh,
+#shanbin_tags {
     border-radius: 25px;
     background: #C1AD6E;
     padding: 10px;
@@ -51,13 +52,15 @@ position: fixed;
     text-decoration: none;
 }
 
-#nav1_sh:hover, #shanbin_tags:hover{
+#nav1_sh:hover,
+#shanbin_tags:hover {
     background-color: #DFD0CF;
 }
 
 /* gunwook stuff */
 
-.nav1_gw, .gunwook_tags1 {
+.nav1_gw,
+.gunwook_tags1 {
     border-radius: 25px;
     background: black;
     padding: 0.6em;
@@ -70,7 +73,8 @@ position: fixed;
     border: none;
 }
 
-.nav1_gw:hover, .gunwook_tags1:hover {
+.nav1_gw:hover,
+.gunwook_tags1:hover {
     background-color: #A9AFDF;
     color: white;
 }
@@ -86,7 +90,8 @@ position: fixed;
 }
 
 /* -------- taerae stuff */
-#nav1_tr, #taerae_tags1 {
+#nav1_tr,
+#taerae_tags1 {
     border-radius: 25px;
     background: #8AB797;
     padding: 10px;
@@ -98,7 +103,7 @@ position: fixed;
 }
 
 #nav1_tr:hover,
-#taerae_tags1:hover{
+#taerae_tags1:hover {
     background-color: #D3C8A6;
 }
 
@@ -108,15 +113,14 @@ position: fixed;
     left: 0;
     width: 43%;
     height: 100%;
-    /* background: #ECE5DB; */
     background: #ECE5DB;
     display: flex;
 }
 
 
-
 /* ----- ricky stuff */
-#nav1_rk, #ricky_tags {
+#nav1_rk,
+#ricky_tags {
     border-radius: 25px;
     background: #db93b0;
     padding: 10px;
@@ -147,7 +151,8 @@ position: fixed;
 
 
 /* ---------- hao stuff */
-#nav_hao, #hao_tags {
+#nav_hao,
+#hao_tags {
     border-radius: 25px;
     background: #011936;
     padding: 10px;
@@ -178,7 +183,8 @@ position: fixed;
 
 
 /* ------ matt */
-#nav_matt, #matt_tags {
+#nav_matt,
+#matt_tags {
     border-radius: 25px;
     background: #809BCE;
     padding: 10px;
@@ -189,7 +195,8 @@ position: fixed;
     text-decoration: none;
 }
 
-#nav_matt:hover, #matt_tags:hover {
+#nav_matt:hover,
+#matt_tags:hover {
     background-color: #95B8D1;
 }
 
@@ -206,7 +213,7 @@ position: fixed;
 
 
 /* ---- gyuvin stuff reposonive trial ---- */
- .sidebar_gyuvin {
+.sidebar_gyuvin {
     position: fixed;
     width: 43%;
     height: 100%;
@@ -216,7 +223,8 @@ position: fixed;
     display: flex;
 }
 
-#nav_gyuvin, #gyuvin_tags {
+#nav_gyuvin,
+#gyuvin_tags {
     border-radius: 25px;
     background: #81BFC9;
     padding: 10px;
@@ -227,7 +235,8 @@ position: fixed;
     text-decoration: none;
 }
 
-#nav_gyuvin:hover, #gyuvin_tags:hover {
+#nav_gyuvin:hover,
+#gyuvin_tags:hover {
     background-color: #05a8aa;
 }
 
@@ -236,61 +245,63 @@ position: fixed;
 
 /* --- yujin stuff --- */
 
- .sidebar_yujin {
-     position: fixed;
-     width: 43%;
-     height: 100%;
-     color: #ffffff;
-     background: #5F70C1;
-     /* background: #f4966d; */
-     display: flex;
- }
-
- #nav_yujin,
- #yujin_tags {
-     border-radius: 25px;
-     background: #B3B7F7;
-     /* background: #8e583b; */
-     padding: 10px;
-     width: 100%;
-     height: 150px;
-     font-size: 15px;
-     color: #ffffff;
-     text-decoration: none;
- }
-
- #nav_yujin:hover, #yujin_tags:hover {
-     background-color: #64C1ED;
-     /* background-color: #c0775a; */
- }
-
- /* --- jiwoong stuff --- */
-
- .sidebar_jiwoong {
-     position: fixed;
+.sidebar_yujin {
+    position: fixed;
     width: 43%;
-     height: 100%;
-     color: #ffffff;
-     background: #748cab;
-     display: flex;
- }
+    height: 100%;
+    color: #ffffff;
+    background: #5F70C1;
+    /* background: #f4966d; */
+    display: flex;
+}
 
- #nav_jiwoong, #jiwoong_tags {
-     border-radius: 25px;
-     background: #3e5c76;
-     padding: 10px;
-     width: 100%;
-     height: 150px;
-     font-size: 15px;
-     color: #ffffff;
-     text-decoration: none;
- }
+#nav_yujin,
+#yujin_tags {
+    border-radius: 25px;
+    background: #B3B7F7;
+    /* background: #8e583b; */
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
 
- #nav_jiwoong:hover,
- #jiwoong_tags:hover {
-     background-color: #1d2d44;
+#nav_yujin:hover,
+#yujin_tags:hover {
+    background-color: #64C1ED;
+    /* background-color: #c0775a; */
+}
 
- }
+/* --- jiwoong stuff --- */
+
+.sidebar_jiwoong {
+    position: fixed;
+    width: 43%;
+    height: 100%;
+    color: #ffffff;
+    background: #748cab;
+    display: flex;
+}
+
+#nav_jiwoong,
+#jiwoong_tags {
+    border-radius: 25px;
+    background: #3e5c76;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#nav_jiwoong:hover,
+#jiwoong_tags:hover {
+    background-color: #1d2d44;
+
+}
 
 
 
@@ -364,7 +375,7 @@ position: fixed;
     overflow: auto;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 5px;
 }
 
@@ -389,7 +400,7 @@ position: fixed;
     font-size: 15px;
     padding: 1%;
     width: 500px;
-    font-style:normal;
+    font-style: normal;
     border-radius: 10%;
 }
 
@@ -415,7 +426,8 @@ position: fixed;
     /* White text color */
 }
 
-.park-gunwook-page #quickStats:hover, #cancel:hover {
+.park-gunwook-page #quickStats:hover,
+#cancel:hover {
     background-color: #A9AFDF;
     /* White background color on hover */
     color: #000000;
@@ -445,7 +457,8 @@ position: fixed;
     background-color: #81BFC9;
 }
 
-.kim-gyuvin-page #quickStats:hover, #cancel:hover {
+.kim-gyuvin-page #quickStats:hover,
+#cancel:hover {
     background-color: #05a8aa;
 }
 
@@ -453,39 +466,48 @@ position: fixed;
     background-color: #3e5c76;
 }
 
-.kim-jiwoong-page #quickStats:hover, #cancel:hover {
-     background-color:#1d2d44;
-     color: white;
+.kim-jiwoong-page #quickStats:hover,
+#cancel:hover {
+    background-color: #1d2d44;
+    color: white;
 }
 
-.zhang-hao-page #quickStats, #cancel {
+.zhang-hao-page #quickStats,
+#cancel {
     background-color: #011936;
 }
 
-.zhang-hao-page #quickStats:hover, #cancels:hover {
+.zhang-hao-page #quickStats:hover,
+#cancels:hover {
     background-color: #ebbc4d;
 }
 
-.seok-matthew-page #quickStats, #cancel {
+.seok-matthew-page #quickStats,
+#cancel {
     background-color: #809BCE;
 }
 
-.seok-matthew-page #quickStats:hover, #cancels:hover {
+.seok-matthew-page #quickStats:hover,
+#cancels:hover {
     background-color: #95B8D1;
 }
 
-.shen-ricky-page #quickStats, #cancel {
+.shen-ricky-page #quickStats,
+#cancel {
     background-color: #db93b0;
 }
 
-.shen-ricky-page #quickStats:hover, #cancels:hover {
+.shen-ricky-page #quickStats:hover,
+#cancels:hover {
     background-color: #9b2151;
 }
 
-.kim-taerae-page #quickStats, #cancel {
+.kim-taerae-page #quickStats,
+#cancel {
     background-color: #8AB797;
 }
 
-.kim-taerae-page #quickStats:hover, #cancels:hover {
+.kim-taerae-page #quickStats:hover,
+#cancels:hover {
     background-color: #D3C8A6;
 }
