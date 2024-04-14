@@ -55,6 +55,7 @@ body {
 #nav1_sh:hover,
 #shanbin_tags:hover {
     background-color: #DFD0CF;
+    color: black;
 }
 
 /* gunwook stuff */
@@ -442,6 +443,7 @@ body {
 
 .sung-hanbin-page #quickStats:hover {
     background-color: #DFD0CF;
+    color: black;
 }
 
 /* han yujin dialog ----------------------------- */

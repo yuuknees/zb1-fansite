@@ -68,7 +68,7 @@ img {
 .grid-container a:hover {
     background-color: #b8ccce;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .item1 {
@@ -93,7 +93,7 @@ img {
     text-align: center;
     bottom: 0;
     background-color: #b8ccce;
-    color: white;
+    color: black;
 }
 
 /* navigation bar ----------------------------- */
